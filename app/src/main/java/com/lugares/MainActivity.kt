@@ -56,6 +56,12 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
+    public override fun onStart(){
+        super.onStart()
+        val usuario = auth.currentUser
+        actualiza(usuario)
+    }
+
 
     private fun haceLogin(){
         val email = binding.etCorreo.text.toString()
