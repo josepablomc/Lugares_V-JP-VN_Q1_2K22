@@ -22,11 +22,11 @@ data class Lugar(
     @ColumnInfo(name="web")
     val web: String,
     @ColumnInfo(name="latitud")
-    val latitud: String,
+    val latitud: Double,
     @ColumnInfo(name="longitud")
-    val longitud: String,
+    val longitud: Double,
     @ColumnInfo(name="altura")
-    val altura: String,
+    val altura: Double,
     @ColumnInfo(name="rutaAudio")
     val rutaAudio: String,
     @ColumnInfo(name="rutaImagen")
