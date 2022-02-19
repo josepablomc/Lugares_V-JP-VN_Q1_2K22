@@ -20,8 +20,15 @@
     <string name ="msg_correo">Correo del lugar</string>
     <string name ="msg_telefono">Teléfono del lugar</string>
     <string name ="msg_web">Web del lugar</string>
-    <string name ="msg_agregar">Agregar lugar</string>
 
-    <string name ="msg_agregado">Lugar agregado</string>
+    <string name ="bt_agregar">Agregar lugar</string>
+    <string name ="bt_actualizar">Actualizar lugar</string>
+
+    <string name ="msg_agregar">Lugar agregado</string>
+    <string name ="msg_actualizado">Lugar actualizado</string>
+    <string name="menu_delete">eliminar_lugar</string>
+    <string name="si">Si</string>
+    <string name="msg_seguro_borrar">¿Está seguro de borrar el lugar?</string>
+    <string name="no">No</string>
 
 </resources>

@@ -26,10 +26,11 @@ class AddLugarFragment : Fragment() {
         lugarViewModel = ViewModelProvider(this)[LugarViewModel::class.java]
         _binding = FragmentAddLugarBinding.inflate(inflater,container,false)
 
-        return binding.root
+
         binding.btAgregar.setOnClickListener {
             insertarLugar()
         }
+        return binding.root
     }
 
     private fun insertarLugar() {
@@ -39,7 +40,7 @@ class AddLugarFragment : Fragment() {
         val web = binding.etWeb.text.toString()
         val lugar = Lugar(0,nombre,correo,telefono,web,0.0,0.0,0.0,"","")
         lugarViewModel.addLugar(lugar)
-        Toast.makeText(requireContext(),getString(R.string.msg_agregado),Toast.LENGTH_SHORT).show()
+        Toast.makeText(requireContext(),getString(R.string.msg_agregar),Toast.LENGTH_SHORT).show()
         findNavController().navigate(R.id.action_addLugarFragment_to_nav_lugar)
 
     }
