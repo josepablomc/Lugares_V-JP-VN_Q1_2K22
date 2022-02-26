@@ -6,6 +6,10 @@
     <!-- Este es para decir que se requiere permiso de hacer llamada telefonica -->
     <uses-permission android:name="android.permission.CALL_PHONE"/>
 
+    <!-- Los siguientes permisos son para activar el GPS y recuperar las coordenadas-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
