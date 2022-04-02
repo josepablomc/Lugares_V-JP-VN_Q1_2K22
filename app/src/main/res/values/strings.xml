@@ -1,5 +1,7 @@
 <resources>
+
     <string name="app_name">Lugares</string>
+
     <string name="tv_correo">Correo</string>
     <string name="tv_clave">Contraseña</string>
     <string name="title_activity_principal">Principal</string>
@@ -56,6 +58,9 @@
     <string name="msg_detener_audio">Nota de audio detenida</string>
     <string name="msg_subiendo_audio">Subiendo Nota Audio</string>
     <string name="msg_subiendo_imagen">Subiendo imagen</string>
+
     <string name="todo">Revisar Luego</string>
+
+    <string name="id_web" translatable="false">299598478243-ku9l3p56avs1paba6ejrfpi7l9cm29p3.apps.googleusercontent.com</string>
 
 </resources>
